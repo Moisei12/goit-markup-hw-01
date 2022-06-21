@@ -129,5 +129,173 @@ li a{
     color: #FFFFFF;
 }
 .heading-2{
-   
+   visibility: hidden;
+}
+.list-items{
+    display: flex;
+    list-style: none;
+}
+.middle-container{
+    height: 289px;
+    width: 1600px;
+    background: #E5E5E5;
+}
+.preferences{
+    position: absolute;
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+}
+.preferences-item{
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.preferences-heading{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    padding-bottom: 10px;
+}
+.what-we-do{
+    height: 476px;
+    width: 1600px;
+    background: #E5E5E5;
+}
+.what-we-do-heading{
+    padding-bottom: 50px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.list-images{
+    display: flex;
+    list-style: none;
+}
+.list-image-1{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 1061px;
+}
+.list-image-2{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 1061px;
+}
+.list-image-3{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 1061px;
+}
+
+/* team members */
+
+.team{
+    height: 648px;
+    background: #F5F4FA;
+}
+.team-heading{
+    padding-top: 94px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-members{
+    display: flex;
+    list-style: none;
+}
+.team-member-1{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+}
+.team-member-2{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 515px;
+    top: 1635px;
+}
+.team-member-3{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 815px;
+    top: 1635px;    
+}
+.team-member-4{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 1115px;
+    top: 1635px;
+}
+h3{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 30px;
+    color: #212121; 
+}
+.profession{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 10px;
+    color: #757575;
+}
+.team-member{
+    height: 108px;
+    width: 270px;
+    background: #FFFFFF;
+}
+footer{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    background: #2F303A;
+}
+.footer-logo{
+    text-decoration: none;
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    padding-top: 60px;
+}
+.address-list-items{
+    list-style: none;
+    display: flex;
+}
+.address-items{
+    width: 231px;
+    height: 81px;
+    left: 215px;
+    padding-top: 111px;
+    padding-left: 215px;
+}
+.item-1{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
