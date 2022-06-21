@@ -268,34 +268,40 @@ h3{
     width: 270px;
     background: #FFFFFF;
 }
-footer{
-    position: absolute;
-    width: 1600px;
+.footer{
     height: 252px;
-    background: #2F303A;
+    background-color: #2F303A;
 }
+
 .footer-logo{
     text-decoration: none;
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    padding-top: 60px;
+}
+.address{
+    margin-left: 215px;
+    margin-top: 60px;
+    background-color: #2F303A;
 }
 .address-list-items{
     list-style: none;
-    display: flex;
 }
-.address-items{
-    width: 231px;
-    height: 81px;
-    left: 215px;
-    padding-top: 111px;
-    padding-left: 215px;
+.footer-list-items{
+    margin-top: 20px;
 }
-.item-1{
+.footer-item{
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+.footer-item-2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+     rgba(255, 255, 255, 0.6);
+}
+
+
