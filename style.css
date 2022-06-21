@@ -1,8 +1,30 @@
 body{
     font-family: 'Roboto', sans-serif;
+   
 }
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+header{
+    display: inline-block;
+    height: 80px;
+}
+.header-logo{
+    position: absolute;
+    margin-left: 224px;
+    
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    margin-left: 453px;
+}
+.nav-link{
+    padding-right: 50px;
+}
+
+
 
